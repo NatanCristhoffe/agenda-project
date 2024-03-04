@@ -26,4 +26,5 @@ git commit -m 'nome do commit'
 git log ou git log --oneline
 git push origin main -u(Esse comando que manda os seus arquivos para o repositorio do GitHub)
 a primeira vez utilizamos o comando com um -U no final para o git setar o origin main como padrao e entao so precisamos dar um git push da proxima vez
+
 ```
