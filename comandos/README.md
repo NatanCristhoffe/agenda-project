@@ -5,8 +5,9 @@ Ambiente virtual
 > conda activate "nome_que_voce_escolheu"
 > pip install django
 > django admin startproject "nome_desejado" .(O ponto e para ele soltar os arquivos dentro da pasta que voce esta)
-
 -Ambiente criado
+
+> python manage.py startapp contact
 ```
 Configurar o git
 ```
@@ -26,5 +27,16 @@ git commit -m 'nome do commit'
 git log ou git log --oneline
 git push origin main -u(Esse comando que manda os seus arquivos para o repositorio do GitHub)
 a primeira vez utilizamos o comando com um -U no final para o git setar o origin main como padrao e entao so precisamos dar um git push da proxima vez
-
 ```
+```
+MIGRANDO A BASE DE DADOS DO DJANGO
+
+python manage.py make,igrations
+python manage.py migrate
+```
+CRIANDO E MODIFICANDO  A SENHA DE UM SUPER USUARIO DJANGO
+```
+python manage.py createsuperuser
+python manage.py changepassword USERNAME
+```
+
