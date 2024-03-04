@@ -18,7 +18,7 @@ git config --global init.defaultBranch main
 git init
 git add .
 git commit -m 'Mensagens'
-git remote add origin 'url do seu repositorio'
+git remote add origin https://github.com/NatanCristhoffe/agenda-project.git
 
 uma vez que voce tiver dado o comando anterior add origin com a sua url_do_git voce nao precisa utilizalo mais, caso altere algum arquivo e so fazer os seguinter comandos:
 git add .
