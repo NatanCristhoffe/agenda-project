@@ -84,6 +84,9 @@ nosetests.xml
 coverage.xml 
 *.cover 
 .hypothesis/ 
+static/
+media/
+project/local_settings.py
 
 # Jupyter Notebook 
 .ipynb_checkpoints 
