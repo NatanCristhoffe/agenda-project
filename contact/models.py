@@ -4,7 +4,6 @@ from django.contrib.auth.models import User
 # id (primary key)
 # First_name (st), last_name(str), phone(str)
 #email(email), created_date (date), description (text).
-#DEPOIS
 #category (foreign Key), show (boolean), owner (foreign key)
 # picture (imagem)
 
